@@ -2,3 +2,11 @@
 @import "business.scss";
 @import "webshop.scss";
 @import "variables.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body-color;
+}
