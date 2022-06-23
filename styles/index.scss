@@ -1,15 +1,54 @@
-@import "basic.scss";
-@import "business.scss";
-@import "webshop.scss";
-@import "variables.scss";
+@import 'variables.scss';
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    background-color: $body-color;
-    font-family: Montserrat; 
-    color: $text-color; 
+  background-color: $body-color;
+  font-family: Montserrat;
+  color: $text-color;
 }
 
+body {
+  display: flex;
+  align-items: center;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: $background-section-color;
+  text-align: center;
+
+  &__title {
+    line-height: 42px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 33px;
+    margin-bottom: 0;
+  }
+
+  &__title-website {
+    margin-top: 0;
+    margin-bottom: 33px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+.price-card-business {
+  width: 380px;
+  height: 770px;
+  background-color: $background-section-color;
+  text-align: center;
+  margin-left: 18px;
+}
+
+.price-card-webshop {
+  width: 380px;
+  height: 770px;
+  background-color: $background-section-color;
+  text-align: center;
+  margin-left: 18px;
+}

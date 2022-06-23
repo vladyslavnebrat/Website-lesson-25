@@ -8,4 +8,45 @@ html {
   color: #ffffff;
 }
 
+body {
+  display: flex;
+  align-items: center;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  text-align: center;
+}
+.price-card__title {
+  line-height: 42px;
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 33px;
+  margin-bottom: 0;
+}
+.price-card__title-website {
+  margin-top: 0;
+  margin-bottom: 33px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.price-card-business {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  text-align: center;
+  margin-left: 18px;
+}
+
+.price-card-webshop {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  text-align: center;
+  margin-left: 18px;
+}
+
 /*# sourceMappingURL=styles.css.map */
