@@ -65,6 +65,22 @@ body {
     line-height: 18px;
   }
 
+  &__options-list {
+    list-style-type: none;
+    text-align: left;
+    line-height: 50px;
+    margin-bottom: 39px;
+  }
+
+  &__order-btn {
+    width: 154px;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    color: $text-color;
+    background-color: $basic-price-color;
+    border: none;
+  }
 }
 
 .price-card-business {
@@ -73,6 +89,9 @@ body {
   background-color: $background-section-color;
   text-align: center;
   margin-left: 18px;
+
+  &__mark {
+  }
 }
 
 .price-card-webshop {
@@ -81,4 +100,28 @@ body {
   background-color: $background-section-color;
   text-align: center;
   margin-left: 18px;
+}
+
+.list-item-dark {
+  background-color: $list-item-dark;
+}
+
+.order-btn-business {
+  width: 154px;
+  line-height: 40px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  color: $text-color;
+  background-color: $business-price-color;
+  border: none;
+}
+
+.order-btn-webshop {
+  width: 154px;
+  line-height: 40px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  color: $text-color;
+  background-color: $webshop-price-color;
+  border: none;
 }

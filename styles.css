@@ -57,6 +57,21 @@ body {
   font-size: 15px;
   line-height: 18px;
 }
+.price-card__options-list {
+  list-style-type: none;
+  text-align: left;
+  line-height: 50px;
+  margin-bottom: 39px;
+}
+.price-card__order-btn {
+  width: 154px;
+  line-height: 40px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  background-color: #5BB189;
+  border: none;
+}
 
 .price-card-business {
   width: 380px;
@@ -65,13 +80,36 @@ body {
   text-align: center;
   margin-left: 18px;
 }
-
 .price-card-webshop {
   width: 380px;
   height: 770px;
   background-color: #334247;
   text-align: center;
   margin-left: 18px;
+}
+
+.list-item-dark {
+  background-color: #2A3438;
+}
+
+.order-btn-business {
+  width: 154px;
+  line-height: 40px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  background-color: #3A6BA5;
+  border: none;
+}
+
+.order-btn-webshop {
+  width: 154px;
+  line-height: 40px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  background-color: #EC632A;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
