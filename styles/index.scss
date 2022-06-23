@@ -89,8 +89,18 @@ body {
   background-color: $background-section-color;
   text-align: center;
   margin-left: 18px;
+  position: relative;
 
   &__mark {
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    width: 147px;
+    top: 25px;
+    left: 265px;
+    background-color: #dc3f45;
+    transform: rotate(45deg);
   }
 }
 
@@ -124,4 +134,13 @@ body {
   color: $text-color;
   background-color: $webshop-price-color;
   border: none;
+}
+
+li {
+  position: relative;
+  padding-left: 22px;
+}
+
+img {
+  line-height: 50px;
 }
