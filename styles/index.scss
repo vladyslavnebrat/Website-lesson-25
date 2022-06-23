@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
-body {
+html {
     background-color: $body-color;
+    font-family: Montserrat; 
+    color: $text-color; 
 }
+

@@ -2,8 +2,10 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   background-color: #141B1C;
+  font-family: Montserrat;
+  color: #ffffff;
 }
 
-/*# sourceMappingURL=styhles.css.map */
+/*# sourceMappingURL=styles.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["styles/index.scss","styles/variables.scss"],"names":[],"mappings":"AAKA;EACI;;;AAGJ;EACI,kBCVS","file":"styhles.css"}
+{"version":3,"sourceRoot":"","sources":["styles/index.scss","styles/variables.scss"],"names":[],"mappings":"AAKA;EACI;;;AAGJ;EACI,kBCVS;EDWT;EACA,OCLS","file":"styles.css"}
