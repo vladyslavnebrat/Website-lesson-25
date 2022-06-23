@@ -12,7 +12,8 @@ html {
 
 body {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin: 115px 132px;
 }
 
 .price-card {
@@ -35,6 +36,35 @@ body {
     font-size: 25px;
     line-height: 30px;
   }
+
+  &__price {
+    font-size: 55px;
+    line-height: 105px;
+    font-weight: 700;
+    background-color: $basic-price-color;
+  }
+
+  &__price-business {
+    font-size: 55px;
+    line-height: 105px;
+    font-weight: 700;
+    background-color: $business-price-color;
+  }
+
+  &__price-webshop {
+    font-size: 55px;
+    line-height: 105px;
+    font-weight: 700;
+    background-color: $webshop-price-color;
+  }
+
+  &__description {
+    width: 327px;
+    margin: 40px 26px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
 }
 
 .price-card-business {

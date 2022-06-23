@@ -10,7 +10,8 @@ html {
 
 body {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin: 115px 132px;
 }
 
 .price-card {
@@ -31,6 +32,30 @@ body {
   margin-bottom: 33px;
   font-size: 25px;
   line-height: 30px;
+}
+.price-card__price {
+  font-size: 55px;
+  line-height: 105px;
+  font-weight: 700;
+  background-color: #5BB189;
+}
+.price-card__price-business {
+  font-size: 55px;
+  line-height: 105px;
+  font-weight: 700;
+  background-color: #3A6BA5;
+}
+.price-card__price-webshop {
+  font-size: 55px;
+  line-height: 105px;
+  font-weight: 700;
+  background-color: #EC632A;
+}
+.price-card__description {
+  width: 327px;
+  margin: 40px 26px;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .price-card-business {
