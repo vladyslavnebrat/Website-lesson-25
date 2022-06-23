@@ -66,6 +66,7 @@ body {
   }
 
   &__options-list {
+    padding: 0;
     list-style-type: none;
     text-align: left;
     line-height: 50px;
@@ -143,4 +144,5 @@ li {
 
 img {
   line-height: 50px;
+  margin-right: 20px;
 }
