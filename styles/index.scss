@@ -35,6 +35,7 @@ body {
     left: 265px;
     background-color: #dc3f45;
     transform: rotate(45deg);
+    text-transform: uppercase;
   }
 
   &__title {
@@ -83,6 +84,7 @@ body {
     text-align: left;
     line-height: 50px;
     margin-bottom: 39px;
+    font-weight: 300;
 
     &_list-item {
       position: relative;
