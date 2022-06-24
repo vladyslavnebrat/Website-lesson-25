@@ -23,19 +23,48 @@ body {
   background-color: $background-section-color;
   text-align: center;
 
+  &__business {
+    width: 380px;
+    height: 770px;
+    background-color: $background-section-color;
+    text-align: center;
+    margin-left: 18px;
+    position: relative;
+    overflow: hidden;
+
+    &_mark {
+      position: absolute;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 25px;
+      width: 147px;
+      top: 25px;
+      left: 265px;
+      background-color: #dc3f45;
+      transform: rotate(45deg);
+    }
+  }
+
+  &__webshop {
+    width: 380px;
+    height: 770px;
+    background-color: $background-section-color;
+    text-align: center;
+    margin-left: 18px;
+  }
+
   &__title {
     line-height: 42px;
     font-weight: 700;
     font-size: 35px;
+    margin: 0;
     margin-top: 33px;
-    margin-bottom: 0;
-  }
 
-  &__title-website {
-    margin-top: 0;
-    margin-bottom: 33px;
-    font-size: 25px;
-    line-height: 30px;
+    &_website {
+      margin: 0;
+      margin-bottom: 33px;
+      font-size: 25px;
+    }
   }
 
   &__price {
@@ -43,20 +72,20 @@ body {
     line-height: 105px;
     font-weight: 700;
     background-color: $basic-price-color;
-  }
 
-  &__price-business {
-    font-size: 55px;
-    line-height: 105px;
-    font-weight: 700;
-    background-color: $business-price-color;
-  }
+    &_webshop {
+      font-size: 55px;
+      line-height: 105px;
+      font-weight: 700;
+      background-color: $webshop-price-color;
+    }
 
-  &__price-webshop {
-    font-size: 55px;
-    line-height: 105px;
-    font-weight: 700;
-    background-color: $webshop-price-color;
+    &_business {
+      font-size: 55px;
+      line-height: 105px;
+      font-weight: 700;
+      background-color: $business-price-color;
+    }
   }
 
   &__description {
@@ -82,61 +111,31 @@ body {
     color: $text-color;
     background-color: $basic-price-color;
     border: none;
+
+    &_business {
+      width: 154px;
+      line-height: 40px;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      color: $text-color;
+      background-color: $business-price-color;
+      border: none;
+    }
+
+    &_webshop {
+      width: 154px;
+      line-height: 40px;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      color: $text-color;
+      background-color: $webshop-price-color;
+      border: none;
+    }
   }
-}
-
-.price-card-business {
-  width: 380px;
-  height: 770px;
-  background-color: $background-section-color;
-  text-align: center;
-  margin-left: 18px;
-  position: relative;
-  overflow: hidden;
-
-  &__mark {
-    position: absolute;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 25px;
-    width: 147px;
-    top: 25px;
-    left: 265px;
-    background-color: #dc3f45;
-    transform: rotate(45deg);
-  }
-}
-
-.price-card-webshop {
-  width: 380px;
-  height: 770px;
-  background-color: $background-section-color;
-  text-align: center;
-  margin-left: 18px;
 }
 
 .list-item-dark {
   background-color: $list-item-dark;
-}
-
-.order-btn-business {
-  width: 154px;
-  line-height: 40px;
-  border-radius: 20px;
-  margin-bottom: 40px;
-  color: $text-color;
-  background-color: $business-price-color;
-  border: none;
-}
-
-.order-btn-webshop {
-  width: 154px;
-  line-height: 40px;
-  border-radius: 20px;
-  margin-bottom: 40px;
-  color: $text-color;
-  background-color: $webshop-price-color;
-  border: none;
 }
 
 li {
