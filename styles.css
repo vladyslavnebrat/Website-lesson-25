@@ -21,7 +21,7 @@ body {
   background-color: #334247;
   text-align: center;
 }
-.price-card__business {
+.price-card_business {
   width: 380px;
   height: 770px;
   background-color: #334247;
@@ -30,7 +30,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-.price-card__business_mark {
+.price-card_business_mark {
   position: absolute;
   font-weight: 700;
   font-size: 14px;
