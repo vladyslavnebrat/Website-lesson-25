@@ -48,6 +48,7 @@ body {
     margin-top: 33px;
 
     &_website {
+      font-weight: 300;
       margin: 0;
       margin-bottom: 33px;
       font-size: 25px;
@@ -89,15 +90,15 @@ body {
     line-height: 50px;
     margin-bottom: 39px;
 
-    &__list-item {
+    &_list-item {
       position: relative;
       padding-left: 22px;
+    }
 
-      &_dark {
-        position: relative;
-        padding-left: 22px;
-        background-color: $list-item-dark;
-      }
+    &_list-item-dark {
+      position: relative;
+      padding-left: 22px;
+      background-color: $list-item-dark;
     }
   }
 

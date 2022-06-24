@@ -45,6 +45,7 @@ body {
   margin-top: 33px;
 }
 .price-card__title_website {
+  font-weight: 300;
   margin: 0;
   margin-bottom: 33px;
   font-size: 25px;
@@ -80,11 +81,11 @@ body {
   line-height: 50px;
   margin-bottom: 39px;
 }
-.price-card__options-list__list-item {
+.price-card__options-list_list-item {
   position: relative;
   padding-left: 22px;
 }
-.price-card__options-list__list-item_dark {
+.price-card__options-list_list-item-dark {
   position: relative;
   padding-left: 22px;
   background-color: #2A3438;
