@@ -61,16 +61,10 @@ body {
     background-color: $basic-price-color;
 
     &_business {
-      font-size: 55px;
-      line-height: 105px;
-      font-weight: 700;
       background-color: $business-price-color;
     }
 
     &_webshop {
-      font-size: 55px;
-      line-height: 105px;
-      font-weight: 700;
       background-color: $webshop-price-color;
     }
   }
@@ -80,6 +74,7 @@ body {
     margin: 40px 26px;
     font-size: 15px;
     line-height: 18px;
+    font-weight: 300;
   }
 
   &__options-list {
@@ -111,23 +106,11 @@ body {
     border: none;
 
     &_business {
-      width: 154px;
-      line-height: 40px;
-      border-radius: 20px;
-      margin-bottom: 40px;
-      color: $text-color;
       background-color: $business-price-color;
-      border: none;
     }
 
     &_webshop {
-      width: 154px;
-      line-height: 40px;
-      border-radius: 20px;
-      margin-bottom: 40px;
-      color: $text-color;
       background-color: $webshop-price-color;
-      border: none;
     }
   }
 }

@@ -56,15 +56,9 @@ body {
   background-color: #5BB189;
 }
 .price-card__price_business {
-  font-size: 55px;
-  line-height: 105px;
-  font-weight: 700;
   background-color: #3A6BA5;
 }
 .price-card__price_webshop {
-  font-size: 55px;
-  line-height: 105px;
-  font-weight: 700;
   background-color: #EC632A;
 }
 .price-card__description {
@@ -72,6 +66,7 @@ body {
   margin: 40px 26px;
   font-size: 15px;
   line-height: 18px;
+  font-weight: 300;
 }
 .price-card__options-list {
   padding: 0;
@@ -99,22 +94,10 @@ body {
   border: none;
 }
 .price-card__order-btn_business {
-  width: 154px;
-  line-height: 40px;
-  border-radius: 20px;
-  margin-bottom: 40px;
-  color: #ffffff;
   background-color: #3A6BA5;
-  border: none;
 }
 .price-card__order-btn_webshop {
-  width: 154px;
-  line-height: 40px;
-  border-radius: 20px;
-  margin-bottom: 40px;
-  color: #ffffff;
   background-color: #EC632A;
-  border: none;
 }
 
 img {
