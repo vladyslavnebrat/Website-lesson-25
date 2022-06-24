@@ -22,38 +22,25 @@ body {
   height: 770px;
   background-color: $background-section-color;
   text-align: center;
+  margin-left: 18px;
+  position: relative;
+  overflow: hidden;
 
-  &_business {
-    width: 380px;
-    height: 770px;
-    background-color: $background-section-color;
-    text-align: center;
-    margin-left: 18px;
-    position: relative;
-    overflow: hidden;
-
-    &_mark {
-      position: absolute;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 25px;
-      width: 147px;
-      top: 25px;
-      left: 265px;
-      background-color: #dc3f45;
-      transform: rotate(45deg);
-    }
-  }
-
-  &__webshop {
-    width: 380px;
-    height: 770px;
-    background-color: $background-section-color;
-    text-align: center;
-    margin-left: 18px;
+  &__mark {
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    width: 147px;
+    top: 25px;
+    left: 265px;
+    background-color: #dc3f45;
+    transform: rotate(45deg);
   }
 
   &__title {
+    display: flex;
+    flex-direction: column;
     line-height: 42px;
     font-weight: 700;
     font-size: 35px;
@@ -73,18 +60,18 @@ body {
     font-weight: 700;
     background-color: $basic-price-color;
 
-    &_webshop {
-      font-size: 55px;
-      line-height: 105px;
-      font-weight: 700;
-      background-color: $webshop-price-color;
-    }
-
     &_business {
       font-size: 55px;
       line-height: 105px;
       font-weight: 700;
       background-color: $business-price-color;
+    }
+
+    &_webshop {
+      font-size: 55px;
+      line-height: 105px;
+      font-weight: 700;
+      background-color: $webshop-price-color;
     }
   }
 
@@ -101,6 +88,17 @@ body {
     text-align: left;
     line-height: 50px;
     margin-bottom: 39px;
+
+    &__list-item {
+      position: relative;
+      padding-left: 22px;
+
+      &_dark {
+        position: relative;
+        padding-left: 22px;
+        background-color: $list-item-dark;
+      }
+    }
   }
 
   &__order-btn {
@@ -132,15 +130,6 @@ body {
       border: none;
     }
   }
-}
-
-.list-item-dark {
-  background-color: $list-item-dark;
-}
-
-li {
-  position: relative;
-  padding-left: 22px;
 }
 
 img {

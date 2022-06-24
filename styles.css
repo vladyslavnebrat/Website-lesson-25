@@ -20,17 +20,11 @@ body {
   height: 770px;
   background-color: #334247;
   text-align: center;
-}
-.price-card_business {
-  width: 380px;
-  height: 770px;
-  background-color: #334247;
-  text-align: center;
   margin-left: 18px;
   position: relative;
   overflow: hidden;
 }
-.price-card_business_mark {
+.price-card__mark {
   position: absolute;
   font-weight: 700;
   font-size: 14px;
@@ -41,14 +35,9 @@ body {
   background-color: #dc3f45;
   transform: rotate(45deg);
 }
-.price-card__webshop {
-  width: 380px;
-  height: 770px;
-  background-color: #334247;
-  text-align: center;
-  margin-left: 18px;
-}
 .price-card__title {
+  display: flex;
+  flex-direction: column;
   line-height: 42px;
   font-weight: 700;
   font-size: 35px;
@@ -66,17 +55,17 @@ body {
   font-weight: 700;
   background-color: #5BB189;
 }
-.price-card__price_webshop {
-  font-size: 55px;
-  line-height: 105px;
-  font-weight: 700;
-  background-color: #EC632A;
-}
 .price-card__price_business {
   font-size: 55px;
   line-height: 105px;
   font-weight: 700;
   background-color: #3A6BA5;
+}
+.price-card__price_webshop {
+  font-size: 55px;
+  line-height: 105px;
+  font-weight: 700;
+  background-color: #EC632A;
 }
 .price-card__description {
   width: 327px;
@@ -90,6 +79,15 @@ body {
   text-align: left;
   line-height: 50px;
   margin-bottom: 39px;
+}
+.price-card__options-list__list-item {
+  position: relative;
+  padding-left: 22px;
+}
+.price-card__options-list__list-item_dark {
+  position: relative;
+  padding-left: 22px;
+  background-color: #2A3438;
 }
 .price-card__order-btn {
   width: 154px;
@@ -117,15 +115,6 @@ body {
   color: #ffffff;
   background-color: #EC632A;
   border: none;
-}
-
-.list-item-dark {
-  background-color: #2A3438;
-}
-
-li {
-  position: relative;
-  padding-left: 22px;
 }
 
 img {
